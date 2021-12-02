@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2? family=Amatic+SC&family=Zen+Antique+Soft&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+.Amatic {
+  font-family: "Amatic SC", cursive; }
+
+.href {
+  text-decoration: none;
+  color: hotpink;
+  font-size: 1.5em;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.bg-gonza {
+  background-color: white; }
+
+.height {
+  height: 15vh; }
+
+@media only screen and (min-width: 1200px) {
+  .href {
+    text-decoration: none;
+    color: hotpink;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: all 1s; }
+  .href:hover, .href:focus {
+    background-size: 100% 2px;
+    color: hotpink; } }
+
+#body {
+  background-color: #F1A3B1; }
+
+h1 {
+  text-align: center;
+  background-color: pink;
+  color: white;
+  font-family: "Amatic SC", cursive;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+h2 {
+  background-color: pink;
+  text-align: center; }
+
+* {
+  font-family: "Zen Antique Soft", serif; }
+
+.carta:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all 1s; }
+
+.w 20% {
+  width: 20%; }
+
+.w 60% {
+  width: 60%; }
+
+.w 80% {
+  width: 80%; }
+
+.w 90% {
+  width: 90%; }
+
+footer {
+  margin-top: 1em; }
+  footer section {
+    display: flex;
+    justify-content: end; }
+    footer section div a img {
+      height: 7vh;
+      padding: 0 1em; }
+
+.fb {
+  background-image: url("multimedia/fb.png"); }
+
+.ig {
+  background-image: url("multimedia/ig.png"); }
+
+.pi {
+  background-image: url("multimedia/pi.png"); }
+
+.tw {
+  background-image: url("multimedia/tw.png"); }
+
+.promo {
+  color: grey;
+  text-decoration: line-through; }
+
+li {
+  list-style: none; }
