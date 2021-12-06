@@ -73,20 +73,8 @@ footer {
     display: flex;
     justify-content: end; }
     footer section div a img {
-      height: 7vh;
+      height: 4vh;
       padding: 0 1em; }
-
-.fb {
-  background-image: url("multimedia/fb.png"); }
-
-.ig {
-  background-image: url("multimedia/ig.png"); }
-
-.pi {
-  background-image: url("multimedia/pi.png"); }
-
-.tw {
-  background-image: url("multimedia/tw.png"); }
 
 .promo {
   color: grey;
@@ -94,3 +82,9 @@ footer {
 
 li {
   list-style: none; }
+
+section section section div div img {
+  box-shadow: 0.3em  0.3em 0.3em  pink; }
+
+.shadow {
+  box-shadow: 5em 1em black; }

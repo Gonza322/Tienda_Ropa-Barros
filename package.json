@@ -267,5 +267,13 @@
     "yargs": "^13.3.2",
     "yargs-parser": "^20.2.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gonza322/Tienda_Ropa-Barros.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gonza322/Tienda_Ropa-Barros/issues"
+  },
+  "homepage": "https://github.com/Gonza322/Tienda_Ropa-Barros#readme",
   "description": ""
 }
