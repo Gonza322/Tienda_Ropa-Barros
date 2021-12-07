@@ -55,26 +55,24 @@ h2 {
   cursor: pointer;
   transition: all 1s; }
 
-.w 20% {
-  width: 20%; }
-
-.w 60% {
-  width: 60%; }
-
-.w 80% {
-  width: 80%; }
-
-.w 90% {
-  width: 90%; }
-
 footer {
   margin-top: 1em; }
   footer section {
     display: flex;
-    justify-content: end; }
+    justify-content: center; }
     footer section div a img {
-      height: 4vh;
+      height: 5vh;
       padding: 0 1em; }
+
+@media only screen and (min-width: 992px) {
+  footer {
+    margin-top: 1em; }
+    footer section {
+      display: flex;
+      justify-content: end; }
+      footer section div a img {
+        height: 5vh;
+        padding: 0 1em; } }
 
 .promo {
   color: grey;
