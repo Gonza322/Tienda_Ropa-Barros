@@ -27,6 +27,7 @@ section{
   
   background-color: transparent;
   border-color: white;
+  text-decoration: none;
   color: white;
   padding:0.5em 2em ;
   text-align: center;
@@ -40,13 +41,14 @@ section{
 .button:hover, .button:focus {
 	
     background-color:white;
+    color: pink;
     text-decoration: none;
     outline: none;
      }
-.link{
-	    text-decoration: none;
-	      color: white; 
-}
-.link:hover{
-	color: pink;
-}
+// .link{
+// 	    text-decoration: none;
+// 	      color: white; 
+// }
+// .link:hover{
+// 	color: pink;
+// }

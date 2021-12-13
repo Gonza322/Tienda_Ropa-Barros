@@ -90,6 +90,7 @@ section section section div div img {
 .button {
   background-color: transparent;
   border-color: white;
+  text-decoration: none;
   color: white;
   padding: 0.5em 2em;
   text-align: center;
@@ -102,15 +103,9 @@ section section section div div img {
 
 .button:hover, .button:focus {
   background-color: white;
+  color: pink;
   text-decoration: none;
   outline: none; }
-
-.link {
-  text-decoration: none;
-  color: white; }
-
-.link:hover {
-  color: pink; }
 
 .nosotros {
   width: 85%; }
