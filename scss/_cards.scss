@@ -22,3 +22,31 @@ section{
 .shadow{
 		box-shadow: 5em 1em black;
 }
+
+.button {
+  
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  padding:0.5em 2em ;
+  text-align: center;
+  display: inline-block;
+  appearance: none;
+  border-style: solid;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.5s;
+      }
+.button:hover, .button:focus {
+	
+    background-color:white;
+    text-decoration: none;
+    outline: none;
+     }
+.link{
+	    text-decoration: none;
+	      color: white; 
+}
+.link:hover{
+	color: pink;
+}
